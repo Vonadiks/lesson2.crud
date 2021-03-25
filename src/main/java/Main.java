@@ -76,8 +76,8 @@ public class Main {
             connect();
 
 //            createTable();
-            insertData();
-//            getData();
+//            insertData();
+            getData();
 //            dropTable();
 //            clearTable();
 //            deleteOneRow();

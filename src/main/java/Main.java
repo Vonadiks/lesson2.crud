@@ -38,7 +38,7 @@ public class Main {
     // 2 метод для добавления записи
 
     private static void insertData() throws SQLException {
-        stmt.executeUpdate("INSERT INTO products (name, count, price) VALUES ('fish', 7, 40);");
+        stmt.executeUpdate("INSERT INTO products (name, count, price) VALUES ('meat', 7, 40);");
     }
 
     //3 метод для получения записи
@@ -76,8 +76,8 @@ public class Main {
             connect();
 
 //            createTable();
-//            insertData();
-            getData();
+            insertData();
+//            getData();
 //            dropTable();
 //            clearTable();
 //            deleteOneRow();
